@@ -1,0 +1,12 @@
+CLARA & MATEO — STATIC SELF-HOSTED WEDDING WEBSITE
+==================================================
+
+All raw HTML, CSS, JavaScript, bundled fonts, and wedding photographs are inside this folder.
+
+HOW TO HOST:
+1. Upload ALL files and the "assets/" folder to your web host (cPanel public_html, Nginx, Apache, Netlify Drop, Cloudflare Pages, GitHub Pages, or S3).
+2. To test locally on your computer without Node.js:
+   Run: python3 -m http.server 3000
+   Then open: http://localhost:3000
+
+Note: Guestbook entries, uploaded photos, lit candles, and RSVPs save automatically in each visitor browser (localStorage) when hosted statically.
